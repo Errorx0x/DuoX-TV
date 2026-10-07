@@ -1,3 +1,31 @@
+# DuoX TV 3.3.0 — Nueva interfaz + Halloween 🎃
+
+Una interfaz más limpia, más visual y con menos elementos tapando tus directos. Y, por Halloween, un extra para quienes quieran algún susto.
+
+## Novedades
+- **Home renovado:** más protagonismo para el vídeo, títulos de hasta tres líneas, contador junto a En vivo y accesos mejor organizados.
+- **Controles más discretos:** menús translúcidos, sombras suaves, perfil del canal y herramientas desplegables.
+- **Sustos opcionales de Halloween:** activa o desactiva el botón junto a Buscar. Vienen apagados; si los activas, pueden aparecer cada 20–80 minutos durante directos de categorías de terror. No se ejecutan en VOD.
+- **Cuentas más sencillas:** Iniciar sesión o Desconectar para Kick y Twitch, con QR en un panel vertical compacto.
+- **Búsqueda más clara:** tres columnas, estado bajo el nombre y selección de tarjeta completa.
+- **Seguir viendo:** reanudación directa desde el botón principal y opciones en las tarjetas.
+- **Mando y multivista:** navegación revisada; seleccionar una pantalla ya no abre accidentalmente el panel izquierdo.
+- **Descubre:** recorre las vistas previas de hasta ocho directos.
+
+Los sustos incluyen imágenes, destellos y sonidos repentinos; son completamente opcionales. “Más ligera” se refiere al diseño visual, no a una reducción medida del consumo de memoria o del tamaño del APK.
+
+## Actualizar
+En DuoX: **Ajustes → Actualización**. También puedes instalar **DuoX.apk** sobre tu versión actual, sin desinstalar, para conservar las cuentas y el progreso local.
+
+## English
+A cleaner, visually lighter interface with a video-first Home, compact translucent controls, clearer three-column search, direct resume playback and improved remote/multiview navigation. Kick and Twitch now use compact account menus and centered vertical QR panels.
+
+**Optional Halloween jump scares:** off by default. Enable them next to Search in Home. They may appear every 20–80 minutes during live streams in horror categories, never during VODs. Includes sudden images, flashes and sounds; switch off at any time.
+
+Update in **Settings → Update**, or install **DuoX.apk** over the existing app. Visual lightness is not a claim of reduced memory use or APK size.
+
+The source archive substitutes licensed intro/Halloween media with placeholders. The signed APK contains the app media; no private account data or signing keys are distributed.
+
 # DuoX TV 3.2.3
 
 - **Corregido: el botón ↻ Actualización encontraba la nueva versión pero no la dejaba descargar** ("La publicación todavía no tiene un APK compatible"). Era una comparación de mayúsculas/minúsculas en la ruta del repositorio de GitHub que no coincidía tras el cambio de cuenta. Verificado con una descarga e instalación real completa.

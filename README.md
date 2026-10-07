@@ -4,15 +4,17 @@
 
 [Web](https://errorx0x.github.io/DuoX-TV/) · [Descargar APK](https://github.com/errorx0x/DuoX-TV/releases/latest/download/DuoX.apk) · [English](https://errorx0x.github.io/DuoX-TV/en/)
 
-![DuoX TV: multivista con cuatro directos](docs/img/multiview.jpg)
+![DuoX TV 3.3.0: Home](https://github.com/Errorx0x/DuoX-TV/releases/download/v3.3.0/DuoX-3.3.0-Home.png)
 
-## Nuevo en 3.2.3
+## Nuevo en 3.3.0 🎃
 
-**Se corrigió el botón ↻ Actualización:** encontraba la versión nueva pero no dejaba descargarla. Si ya tienes 3.2.1 o 3.2.2, esta última hay que instalarla una vez a mano (Downloader, código **7658893**); después de esta, el botón de actualizar vuelve a funcionar normal.
+**Nueva interfaz, más limpia y visual:** Home con más protagonismo para el vídeo, controles compactos, búsqueda en tres columnas y menús de cuentas más sencillos.
 
-[Ver todas las novedades de 3.2.3](https://github.com/errorx0x/DuoX-TV/releases/tag/v3.2.3)
+**Halloween ya llegó:** sustos opcionales desde el botón junto a Buscar. Apagados por defecto; solo aparecen ocasionalmente durante directos de categorías de terror, nunca en VOD. Incluyen imágenes, destellos y sonidos repentinos.
 
-**English:** DuoX TV is a free, independent Twitch and Kick client for Amazon Fire TV and Android TV (Fire OS 7+ / Android 9+). Version 3.2.3 fixes the in-app ↻ Update button, which detected new releases but failed to download them. If you're on 3.2.1 or 3.2.2, install this one manually once (Downloader, code 7658893); after that, in-app updates work normally again. It offers multiview of up to four channels, voice-synced VODs, voice search, QR chat and in-app updates, in a ~1.5 MB APK. Not affiliated with Twitch, Kick or Amazon.
+[Ver las notas del parche 3.3.0](https://github.com/errorx0x/DuoX-TV/releases/tag/v3.3.0)
+
+**English:** A visually lighter interface, compact playback/account menus, clearer search and improved remote navigation. Optional Halloween jump scares are off by default and only run during horror-category live streams, never VODs. Update from Settings → Update or install DuoX.apk over your current version.
 
 **Creado por errorx0x.** Cliente independiente para ver Twitch y Kick en Fire TV y Android TV, con navegación mediante mando.
 
@@ -65,7 +67,7 @@ El progreso se guarda cada 10 segundos y al salir o pausar. Los VOD vistos menos
 
 ## Compilar
 
-El código fuente completo va como archivo `DuoX-3.2.0-codigo.zip` en el [release](https://github.com/errorx0x/DuoX-TV/releases/latest).
+El código fuente completo va como archivo `DuoX-3.3.0-codigo.zip` en el [release](https://github.com/errorx0x/DuoX-TV/releases/latest).
 
 Necesitas JDK 17, Android SDK 35 y Build Tools 35.0.0. Configura `ANDROID_HOME` o un `local.properties` local con `sdk.dir`.
 

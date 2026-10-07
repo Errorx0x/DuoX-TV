@@ -17,3 +17,7 @@ La implementación Java de reproducción de Twitch es propia; se consultaron los
 ## Intro sound
 
 The opening sound of the released APK is licensed to the author under an Envato Elements subscription and is embedded in the app only. It is **not** included in this source repository: `app/src/main/res/raw/duox_signature.m4a` here is a silent placeholder, so the project builds but the intro is silent unless you supply your own sound with that file name.
+
+## Halloween media
+
+Halloween images and sound effects are embedded in the APK under the author's Envato Elements licensing. The public source archive replaces these media with neutral drawable placeholders and silent WAV files. These placeholders are not the released visual/audio experience; supply media you have permission to distribute when building your own version.
