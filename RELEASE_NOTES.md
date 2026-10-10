@@ -1,3 +1,35 @@
+# DuoX TV 3.3.1 — Estabilidad y navegación
+
+10 de octubre de 2026
+
+- **Home sincronizado:** al volver de un directo, el preview y el panel conservan el mismo canal y su icono queda visible. Al abrir la app, la navegación comienza en el panel izquierdo.
+- **Accesos con el mando:** con los controles ocultos, Izquierda abre el panel LIVE y Abajo selecciona el perfil.
+- **Reproducción:** intenta recuperar errores temporales del directo en lugar de enviarte inmediatamente al Home. Se añade una alternativa al iniciar el decodificador de vídeo.
+- **Chat:** reconexión tras interrupciones y mejor manejo de fallos al cargarlo. Twitch ya no confirma como enviados los emotes que la plataforma rechaza o retiene.
+- **Búsqueda:** conserva la selección cuando llegan resultados nuevos y mantiene los espectadores conocidos. Si la plataforma no informa la cifra, muestra «EN DIRECTO».
+- **VOD sincronizados:** mejor cancelación de la búsqueda de sincronización y corrección de la velocidad al cambiar el audio principal.
+- **Carga y acceso a Kick:** imágenes dimensionadas antes de decodificarlas; el QR evita acumular comprobaciones y tiene límites de espera.
+- **Actualizaciones más visibles:** El engranaje de Ajustes se rellena de verde y aparece un punto verde junto a Actualización cuando hay una versión nueva. También se descartan respuestas tardías al salir de ese menú.
+
+Actualiza en **Ajustes → Actualización** o instala **DuoX.apk** sobre tu versión actual, sin desinstalar. Se mantienen la interfaz y los sustos opcionales de Halloween de 3.3.0.
+
+**Pendiente:** el cierre reportado en algunos Fire TV Cube sigue en investigación; esta versión no lo da por resuelto.
+
+## English
+
+- **Home:** returning from playback keeps the preview and selected channel in sync, with its icon visible. Navigation starts in the left panel when the app opens.
+- **Remote shortcuts:** with controls hidden, Left opens LIVE and Down selects the profile.
+- **Playback:** retries temporary live-stream errors instead of immediately returning Home, with fallback when initializing the video decoder.
+- **Chat:** reconnects after interruptions and handles loading failures. Twitch emotes rejected or held by the platform are no longer reported as sent.
+- **Search:** keeps the focused channel as results arrive and preserves known viewer counts. Unknown counts display “LIVE”.
+- **Synced VODs:** improved synchronization-search cancellation and playback speed when changing the main audio.
+- **Images and Kick QR:** bounded image decoding, no accumulation of login checks, and timed-out waits.
+- **Updates:** The Settings gear fills green and a green dot appears beside Update when a newer version is available. Leaving the update menu discards late responses.
+
+Update through **Settings → Update**, or install **DuoX.apk** over your current version. The 3.3.0 interface and optional Halloween jump scares remain available.
+
+**Still under investigation:** the crash reported on some Fire TV Cube devices is not confirmed fixed by this release.
+
 # DuoX TV 3.3.0 — Nueva interfaz + Halloween 🎃
 
 Una interfaz más limpia, más visual y con menos elementos tapando tus directos. Y, por Halloween, un extra para quienes quieran algún susto.
