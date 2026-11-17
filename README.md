@@ -6,17 +6,15 @@
 
 ![DuoX TV 3.3.0: Home](https://github.com/Errorx0x/DuoX-TV/releases/download/v3.3.0/DuoX-3.3.0-Home.png)
 
-## Nuevo en 3.3.1
+## Nuevo en 3.4.0
 
-**Mejoras de estabilidad y navegación:** Home y panel LIVE mantienen el mismo canal al regresar; la navegación comienza en el panel izquierdo. Reintentos de reproducción, reconexión del chat, búsqueda que conserva la selección y ajustes en VOD sincronizados y acceso por QR.
+**Chat flotante o lateral:** menú pequeño y transparente junto a su icono; el chat lateral reduce el vídeo para no taparlo. QR del chat visible 30 segundos y desactivable en Ajustes → Chat.
 
-**Actualizaciones a la vista:** El engranaje de Ajustes se rellena de verde y aparece un punto verde junto a Actualización cuando hay una versión nueva.
+**Más limpio:** paneles de canales curvos y más pegados al borde, Home solo con Seguir viendo y Descubre (Offline sigue en Buscar), foco del mando más fiable y chat de Kick con configuración de conexión actualizada. Se retiran los sustos de Halloween.
 
-[Ver las notas del parche 3.3.1](https://github.com/errorx0x/DuoX-TV/releases/tag/v3.3.1)
+[Ver las notas de la versión 3.4.0](https://github.com/errorx0x/DuoX-TV/releases/tag/v3.4.0)
 
-**English:** Improved Home selection, remote navigation, playback recovery, chat reconnection, search, synced VODs and Kick QR login. The Settings gear fills green and a green dot appears beside Update when a newer version is available. Update from Settings → Update or install DuoX.apk over your current version.
-
-Se conservan la interfaz de 3.3.0 y los **sustos opcionales de Halloween**, apagados por defecto. Solo aparecen durante directos de categorías de terror, nunca en VOD; incluyen imágenes, destellos y sonidos repentinos.
+**English:** Floating or side chat (the video fits beside it), chat QR hides after 30 seconds and can be disabled in Settings → Chat, curved channel panels, simpler Home, steadier remote focus, updated Kick chat connection. Halloween jump scares were removed. Update from Settings → Update or install DuoX.apk over your current version.
 
 **Creado por errorx0x.** Cliente independiente para ver Twitch y Kick en Fire TV y Android TV, con navegación mediante mando.
 
@@ -38,13 +36,13 @@ En **Ajustes → Actualización** puedes consultar y descargar versiones nuevas 
 
 - Inicio con preview de directo, seguidos de Twitch/Kick y orden por espectadores.
 - Panel LIVE con aro violeta para Twitch y verde para Kick.
-- Canales OFFLINE con acceso a retransmisiones públicas.
+- Canales OFFLINE con acceso a retransmisiones públicas desde Buscar.
 - Reproductor nativo, calidad automática/manual y multivista de hasta cuatro canales.
 - **VOD sincronizada:** hasta cuatro VOD a la vez con sugerencias por día y título, ajuste manual, corrección de deriva y alineación por voz cuando hay audio compartido.
 - Barra de controles fina y translúcida con perfil del canal y herramientas desplegables. En multivista, el icono de audio permite cambiar de canal con arriba/abajo, uno cada vez.
 - El indicador de audio en multivista aparece al empezar y al cambiar, y se desvanece a los 3 segundos.
 - Buscador con teclado propio a la izquierda y canales reales a la derecha (Twitch y Kick), con los directos primero y los offline después. Twitch requiere la cuenta conectada; Kick es público.
-- Chat más transparente con un QR pequeño debajo: abre en el móvil solo el chat del canal activo (popout público de Twitch/Kick). El QR no contiene credenciales; para escribir se necesita sesión en el móvil.
+- Chat flotante (translúcido) o lateral (el vídeo se adapta), con un QR pequeño que se oculta a los 30 segundos y se puede desactivar: abre en el móvil solo el chat del canal activo (popout público de Twitch/Kick). El QR no contiene credenciales; para escribir se necesita sesión en el móvil.
 - Preview del inicio en marco 16:9 sin franjas negras ni deformar el vídeo.
 - VOD con barra de tiempo, duración y desplazamiento con el mando.
 - Continuar viendo dentro del perfil de cada canal: guarda el progreso local de hasta 20 VOD de Twitch/Kick; permite continuar, empezar de nuevo o quitar un vídeo de la fila.
@@ -69,7 +67,7 @@ El progreso se guarda cada 10 segundos y al salir o pausar. Los VOD vistos menos
 
 ## Compilar
 
-El código fuente completo va como archivo `DuoX-3.3.1-codigo.zip` en el [release](https://github.com/errorx0x/DuoX-TV/releases/latest).
+El código fuente completo va como archivo `DuoX-3.4.0-codigo.zip` en el [release](https://github.com/errorx0x/DuoX-TV/releases/latest).
 
 Necesitas JDK 17, Android SDK 35 y Build Tools 35.0.0. Configura `ANDROID_HOME` o un `local.properties` local con `sdk.dir`.
 
@@ -91,7 +89,7 @@ Esta app no es oficial ni está afiliada a Twitch, Kick o Amazon. La reproducci�
 
 Cuatro directos a máxima calidad pueden exceder la memoria o capacidad de decodificación del Fire TV HD. No hay subtítulos traducidos por IA en esta versión. La compatibilidad no está certificada para todos los dispositivos.
 
-El cierre reportado en algunos Fire TV Cube sigue en investigación y no está confirmado como resuelto en 3.3.1.
+El cierre reportado en algunos Fire TV Cube sigue en investigación y no está confirmado como resuelto en 3.4.0.
 
 ## Privacidad y autoría
 

@@ -1,3 +1,35 @@
+# DuoX TV 3.4.0 — Chat flotante o lateral y navegación más limpia
+
+16 de noviembre de 2026
+
+- **Chat a tu medida:** el menú del chat es pequeño, transparente y aparece junto a su icono, como los de calidad y distribución. Elige Ocultar, Flotante o Lateral. El chat lateral reduce el vídeo para no taparlo; el flotante se ve translúcido sobre la imagen. Más compacto, con fondo negro mate y texto legible.
+- **QR del chat:** se oculta solo a los 30 segundos y puedes desactivarlo en **Ajustes → Chat**.
+- **Paneles de canales curvos:** el panel LIVE del Home y del reproductor sigue una curva suave y queda más pegado al borde izquierdo.
+- **Home más simple:** debajo solo quedan Seguir viendo y Descubre. Los canales sin directo siguen disponibles en Buscar.
+- **Mando:** foco más fiable al entrar y salir de controles, perfil y paneles; al volver de un directo se conserva el canal seleccionado.
+- **Chat de Kick:** pide la configuración de conexión vigente a Kick y reintenta si la plataforma la cambia, con procesamiento de mensajes limitado para no saturar la TV.
+- **Reproducción:** recuperación de directos con dos comprobaciones y reintentos acotados; descarta respuestas tardías si el directo ya funciona. Errores de arranque del reproductor y del chat se contienen en lugar de cerrar la app.
+- **Se retiran los sustos de Halloween** y sus imágenes y sonidos (la app es más pequeña).
+
+Actualiza en **Ajustes → Actualización** o instala **DuoX.apk** sobre tu versión actual, sin desinstalar.
+
+**Pendiente:** el cierre reportado en algunos Fire TV Cube sigue en investigación; esta versión no lo da por resuelto. Probada en una Smart TV TCL (Android 14).
+
+## English
+
+- **Chat your way:** the chat menu is small, transparent and anchored next to its icon, like the quality and layout menus. Choose Hide, Floating or Side. Side chat shrinks the video so it is never covered; floating chat is translucent over the picture. More compact, matte black background and readable text.
+- **Chat QR:** hides itself after 30 seconds and can be turned off in **Settings → Chat**.
+- **Curved channel panels:** the LIVE panel on Home and in the player follows a soft curve and sits closer to the left edge.
+- **Simpler Home:** only Continue watching and Discover remain below. Offline channels are still available in Search.
+- **Remote:** more reliable focus when entering and leaving controls, profile and panels; returning from a stream keeps the selected channel.
+- **Kick chat:** fetches the current connection settings from Kick and retries if the platform changes them, with bounded message processing so the TV is not overloaded.
+- **Playback:** live recovery needs two checks and bounded retries, and discards late responses when the stream already works. Player and chat start-up errors are contained instead of closing the app.
+- **Halloween jump scares are removed**, along with their images and sounds (smaller app).
+
+Update through **Settings → Update**, or install **DuoX.apk** over your current version.
+
+**Still under investigation:** the crash reported on some Fire TV Cube devices is not confirmed fixed by this release. Tested on a TCL Smart TV (Android 14).
+
 # DuoX TV 3.3.1 — Estabilidad y navegación
 
 10 de octubre de 2026

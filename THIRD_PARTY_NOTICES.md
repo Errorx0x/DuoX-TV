@@ -20,4 +20,4 @@ The opening sound of the released APK is licensed to the author under an Envato 
 
 ## Halloween media
 
-Halloween images and sound effects are embedded in the APK under the author's Envato Elements licensing. The public source archive replaces these media with neutral drawable placeholders and silent WAV files. These placeholders are not the released visual/audio experience; supply media you have permission to distribute when building your own version.
+The optional Halloween jump scares (and their Envato Elements images and sounds) were removed in 3.4.0 and are no longer part of the APK or the source archive.
